@@ -44,6 +44,24 @@
       <span>Cooking</span>
     </div>
   </section>
+  <section class="projects">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <div class="project-card">
+      <h3>Real-Time Data Pipeline</h3>
+      <p>Built a real-time data ingestion pipeline using Kafka, Spark Streaming, and Cassandra to process and store IoT sensor data.</p>
+    </div>
+    <div class="project-card">
+      <h3>Data Lakehouse on AWS</h3>
+      <p>Designed a scalable data lakehouse architecture using AWS S3, Glue, and Redshift for a retail analytics platform.</p>
+    </div>
+    <div class="project-card">
+      <h3>ETL Automation with Airflow</h3>
+      <p>Automated complex ETL workflows using Apache Airflow, reducing manual intervention and improving data freshness by 40%.</p>
+    </div>
+  </div>
+</section>
+
 
   <footer>
     <p>Contact me: <a href="mailto:example@example.com">example@example.com</a></p>
@@ -56,5 +74,15 @@
       </a>
     </div>
   </footer>
+  <img src="https://cdn-icons-png.flaticon.com/32/3219/3219607.png" id="custom-cursor" alt="Custom Cursor" />
+
+<script>
+  const cursor = document.getElementById('custom-cursor');
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.pageX + 20 + 'px';
+    cursor.style.top = e.pageY + 20 + 'px';
+  });
+</script>
+
 </body>
 </html>
