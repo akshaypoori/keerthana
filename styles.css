@@ -1,10 +1,10 @@
 body {
   margin: 0;
   font-family: 'Sono', sans-serif;
-  background-color: #fff9c4; /* lighter yellow */
+  background-color: #fff9c4;
   color: #000;
   line-height: 1.6;
-  cursor: url('https://cdn-icons-png.flaticon.com/512/3219/3219607.png') 16 16, auto;
+  cursor: url('https://cdn-icons-png.flaticon.com/32/3219/3219607.png') 16 16, auto;
 }
 
 header {
@@ -62,12 +62,14 @@ header {
 }
 
 .skills-list span, .hobbies-list span {
+  display: inline-block;
   background: #fff59d;
-  padding: 10px 15px;
-  border-radius: 20px;
+  padding: 12px 18px;
+  border-radius: 12px;
   font-weight: bold;
-  transition: background 0.3s ease, transform 0.2s ease;
-  cursor: default;
+  border: 1px solid #fce588;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background 0.3s ease;
 }
 
 .skills-list span:hover, .hobbies-list span:hover {
