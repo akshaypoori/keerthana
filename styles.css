@@ -102,3 +102,42 @@ footer a {
 .social-icons img:hover {
   transform: scale(1.2);
 }
+#custom-cursor {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000;
+  width: 32px;
+  height: 32px;
+}
+.projects {
+  padding: 20px;
+  background-color: #fffde7;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.projects h2 {
+  margin-bottom: 10px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background: #fff59d;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.project-card:hover {
+  background: #ffee58;
+  transform: scale(1.03);
+}
+
