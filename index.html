@@ -14,7 +14,7 @@
 
   <section class="intro">
     <div class="photo-container">
-      <img src="https://www.google.com/imgres?q=copyright%20free%20female%20image&imgurl=https%3A%2F%2Fdm0qx8t0i9gc9.cloudfront.net%2Fthumbnails%2Fimage%2FrDtN98Qoishumwih%2FIMG_3210-1773_thumb.jpg&imgrefurl=https%3A%2F%2Fwww.storyblocks.com%2Fimages%2Fsearch%2Ffemale&docid=5LEcP3g9gFYB5M&tbnid=lNsOkkhIuQJqAM&vet=12ahUKEwjuva7V0KeNAxVGV2wGHVrkGB0QM3oECB8QAA..i&w=300&h=200&hcb=2&ved=2ahUKEwjuva7V0KeNAxVGV2wGHVrkGB0QM3oECB8QAA" alt="Profile Photo" class="profile-photo" />
+      <img src="https://picsum.photos/200" alt="Profile Photo" class="profile-photo" />
     </div>
     <div class="description">
       <h2>Hi, I'm a Data Engineer</h2>
@@ -74,6 +74,14 @@
       </a>
     </div>
   </footer>
-  
+  <img src="https://cdn-icons-png.flaticon.com/32/3219/3219607.png" id="custom-cursor" alt="Custom Cursor" />
+<script>
+  const cursor = document.getElementById('custom-cursor');
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.pageX + 10 + 'px';
+    cursor.style.top = e.pageY + 10 + 'px';
+  });
+</script>
+
 </body>
 </html>
