@@ -102,13 +102,7 @@ footer a {
 .social-icons img:hover {
   transform: scale(1.2);
 }
-#custom-cursor {
-  position: relative;
-  pointer-events: none;
-  z-index: 1000;
-  width: 32px;
-  height: 32px;
-}
+
 .projects {
   padding: 20px;
   background-color: #fffde7;
