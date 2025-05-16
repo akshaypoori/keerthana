@@ -4,7 +4,7 @@ body {
   background-color: #fff9c4;
   color: #000;
   line-height: 1.6;
-  cursor : none;}
+ }
 
 header {
   background-color: #fff176;
@@ -132,13 +132,6 @@ footer a {
 .project-card:hover {
   background: #ffee58;
   transform: scale(1.03);
-}
-#custom-cursor {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  pointer-events: none;
-  z-index: 9999;
 }
 
 
