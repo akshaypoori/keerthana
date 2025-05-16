@@ -103,7 +103,7 @@ footer a {
   transform: scale(1.2);
 }
 #custom-cursor {
-  position: absolute;
+  position: relative;
   pointer-events: none;
   z-index: 1000;
   width: 32px;
